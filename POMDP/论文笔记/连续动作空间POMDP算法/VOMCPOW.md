@@ -60,9 +60,7 @@ $$
 
 ### C. Lunar Lander
 
-Once again, we show the mean reward for 1000 simulations for each solver and each planning time plotted in log scale of seconds in Figure 5. VOMCPOW outperforms both POMCPOWand BOMCP by a statistically significant margin once the planning time exceeds 0.1 seconds. Below 0.1 seconds, the performances of POMCPOW and VOMCPOW are similar due to the problem having a long horizon, in which the effects of VPW will not be as apparent since best Voronoi cell actions will not be sampled very often.
-
-与BOMCP中的问题设置一致，不再赘述，详细可见链接[文章](https://github.com/Lttcc/RL-POMDP/tree/main/%E8%BF%9E%E7%BB%AD%E5%8A%A8%E4%BD%9C%E7%A9%BA%E9%97%B4POMDP%E7%AE%97%E6%B3%95)中的介绍，实验结果如下：
+与BOMCP中的问题设置一致，不再赘述，详细可见链接[文章]([RL-POMDP/BOMCP and PA-POMCPOW.pdf at main · Lttcc/RL-POMDP (github.com)](https://github.com/Lttcc/RL-POMDP/blob/main/POMDP/论文笔记/连续动作空间POMDP算法/BOMCP and PA-POMCPOW.pdf))中的介绍，实验结果如下：
 
 ![image-20211031160709922](VOMCPOW.assets/image-20211031160709922.png)
 
